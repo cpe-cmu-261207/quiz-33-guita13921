@@ -4,7 +4,7 @@ export default function Reply(props) {
   return (
     <div className="d-flex gap-2 my-2 ps-5">
       <img
-        src="/profileImages/puppy.jpg"
+        src="/profileImages/popcat.png"
         width="48"
         height="48"
         className="rounded-circle"
@@ -15,11 +15,15 @@ export default function Reply(props) {
         style={{ backgroundColor: "#3A3B3C" }}
       >
         <span className="fw-semibold" style={{ color: "#E4E6EB" }}>
-          Doggo
+          แมวตัวหนึ่ง
         </span>
         <br />
-        <span style={{ color: "#E4E6EB" }}>จริงค้าบบบบบบบบ</span>
+        <span style={{ color: "#E4E6EB" }}>บ้าไปแล้ว</span>
+        <div className="d-flex align-items-center gap-1">
+          <img src="/like.svg" width={20}></img>
+          <span style={{ color: "#B0B3B8" }}>2 คน</span>
+        </div>
       </div>
-    </div>,
+    </div>
   );
 }
